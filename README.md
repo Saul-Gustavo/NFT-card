@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Screenshot.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -66,11 +66,12 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<section>Some HTML code I'm proud of</section>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.section {
+  display: flex;
+  min-height: 100vh;
 }
 ```
 ```js
