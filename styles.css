@@ -32,6 +32,7 @@ body {
     width: 100%;
     background-color: var(--veryDarkBlue);
     color: var(--soft-blue);
+    position: relative;
 }
 
 .container {
@@ -140,6 +141,20 @@ body {
     width: 30px;
     border: 1px solid var(--white);
     border-radius: 50%;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+}
+
+.attribution a {
+    text-decoration: none;    
+    color: var(--white);
+}
+
+.attribution a:hover {
+    color: var(--cyan);
 }
 
 @media screen and (max-width: 375px) {
